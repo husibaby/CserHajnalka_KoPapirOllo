@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rock"
+        android:id="@+id/ImageViewPlayer"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A te választásod"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rock"
+        android:id="@+id/ImageViewComputer"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A gép választása"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eredmény: Ember: 0 Computer:0"
+        android:id="@+id/textViewResult"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/buttonRock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kő"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonPaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Papír"
+            android:textSize="15sp"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/buttonScissors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Olló"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
